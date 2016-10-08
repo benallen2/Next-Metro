@@ -1,0 +1,4 @@
+variables needed:
+
+1. line color
+2. station name

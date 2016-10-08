@@ -1,0 +1,473 @@
+{
+  "redLine":[{
+    "name": "Shady Grove",
+    "id": "A15"
+}, {
+    "name": "Rockville",
+    "id": "A14"
+}, {
+    "name": "Twinbrook",
+    "id": "A13"
+}, {
+    "name": "White Flint",
+    "id": "A12"
+}, {
+    "name": "Grovesnor-Strathmore",
+    "id": "A11"
+}, {
+    "name": "Medical Center",
+    "id": "A10"
+}, {
+    "name": "Bethesda",
+    "id": "A09"
+}, {
+    "name": "Friendship Heights",
+    "id": "A08"
+}, {
+    "name": "Tenleytown-AU",
+    "id": "A07"
+}, {
+    "name": "Van Ness-UDC",
+    "id": "A06"
+}, {
+    "name": "Cleveland Park",
+    "id": "A05"
+}, {
+    "name": "Woodley Park",
+    "id": "A04"
+}, {
+    "name": "Dupont Circle",
+    "id": "A03"
+}, {
+    "name": "Farragut North",
+    "id": "A02"
+}, {
+    "name": "Metro Center",
+    "id": "A01"
+}, {
+    "name": "Gallery Place-China Town",
+    "id": "B01"
+}, {
+    "name": "Judiciary Square",
+    "id": "B02"
+}, {
+    "name": "Union Station",
+    "id": "B03"
+}, {
+    "name": "NoMa-Galludet U",
+    "id": "B35"
+}, {
+    "name": "Rhode Island Ave-Brentwood",
+    "id": "B04"
+}, {
+    "name": "Brookland-CUA",
+    "id": "B05"
+}, {
+    "name": "Fort Totten",
+    "id": "B06"
+}, {
+    "name": "Takoma",
+    "id": "B07"
+}, {
+    "name": "Silver Spring",
+    "id": "B08"
+}, {
+    "name": "Forest Glen",
+    "id": "B09"
+}, {
+    "name": "Wheaton",
+    "id": "B10"
+}, {
+    "name": "Glenmont",
+    "id": "B11"
+    }
+  ],
+
+"orangeLine": [{
+    "name": "Vienna",
+    "id": "K08"
+}, {
+    "name": "Dunn Loring",
+    "id": "K07"
+}, {
+    "name": "West Falls Church",
+    "id": "K06"
+}, {
+    "name": "East Falls Church",
+    "id": "K05"
+}, {
+    "name": "Ballston-MU",
+    "id": "K04"
+}, {
+    "name": "Virginia Square-GMU",
+    "id": "K03"
+}, {
+    "name": "Clarendon",
+    "id": "K02"
+}, {
+    "name": "Court House",
+    "id": "K01"
+}, {
+    "name": "Rosslyn",
+    "id": "C05"
+}, {
+    "name": "Foggy Bottom-GWU",
+    "id": "C04"
+}, {
+    "name": "Farragut West",
+    "id": "C03"
+}, {
+    "name": "McPherson Square",
+    "id": "C02"
+}, {
+    "name": "Metro Center",
+    "id": "C01"
+}, {
+    "name": "Federal Triangle",
+    "id": "D01"
+}, {
+    "name": "Smithsonian",
+    "id": "D02"
+}, {
+    "name": "L'Enfant Plaza",
+    "id": "D03"
+}, {
+    "name": "Federal Center SW",
+    "id": "D04"
+}, {
+    "name": "Capitol South",
+    "id": "D05"
+}, {
+    "name": "Eastern Market",
+    "id": "D06"
+}, {
+    "name": "Potomac Ave",
+    "id": "D07"
+}, {
+    "name": "Stadium-Armory",
+    "id": "D08"
+}, {
+    "name": "Minnesota Ave",
+    "id": "D09"
+}, {
+    "name": "Deanwood",
+    "id": "D10"
+}, {
+    "name": "Cheverly",
+    "id": "D11"
+}, {
+    "name": "Landover",
+    "id": "D12"
+}, {
+    "name": "New Carrollton",
+    "id": "D13"
+    }
+  ],
+
+"blueLine": [{
+    "name": "Franconia-Springfield",
+    "id": "J03"
+}, {
+    "name": "Van Dorn Street",
+    "id": "J02"
+}, {
+    "name": "King Street - Old Town",
+    "id": "C13"
+}, {
+    "name": "Braddock Road",
+    "id": "C12"
+}, {
+    "name": "Potomac Yard",
+    "id": "C11"
+}, {
+    "name": "Ronald Reagan Washington National Airport",
+    "id": "C10"
+}, {
+    "name": "Crystal City",
+    "id": "C09"
+}, {
+    "name": "Pentagon City",
+    "id": "C08"
+}, {
+    "name": "Pentagon",
+    "id": "C07"
+}, {
+    "name": "Arlington Cemetary",
+    "id": "C06"
+}, {
+    "name": "Rosslyn",
+    "id": "C05"
+}, {
+    "name": "Foggy Bottom-GWU",
+    "id": "C04"
+}, {
+    "name": "Farragut West",
+    "id": "C03"
+}, {
+    "name": "McPherson Square",
+    "id": "C02"
+}, {
+    "name": "Metro Center",
+    "id": "C01"
+}, {
+    "name": "Federal Triangle",
+    "id": "D01"
+}, {
+    "name": "Smithsonian",
+    "id": "D02"
+}, {
+    "name": "L'Enfant Plaza",
+    "id": "D03"
+}, {
+    "name": "Federal Center SW",
+    "id": "D04"
+}, {
+    "name": "Capitol South",
+    "id": "D05"
+}, {
+    "name": "Eastern Market",
+    "id": "D06"
+}, {
+    "name": "Potomac Ave",
+    "id": "D07"
+}, {
+    "name": "Stadium-Armory",
+    "id": "D08"
+}, {
+    "name": "Benning Road",
+    "id": "G01"
+}, {
+    "name": "Capitol Heights",
+    "id": "G02"
+}, {
+    "name": "Addison Road",
+    "id": "G03"
+}, {
+    "name": "Morgan Boulevard",
+    "id": "G04"
+}, {
+    "name": "Largo Town Center",
+    "id": "G05"
+    }
+  ],
+
+"greenLine": [{
+    "name": "Branch Ave",
+    "id": "F11"
+}, {
+    "name": "Suitland",
+    "id": "F10"
+}, {
+    "name": "Naylor Road",
+    "id": "F09"
+}, {
+    "name": "Southern Ave",
+    "id": "F08"
+}, {
+    "name": "Congress Heights",
+    "id": "F07"
+}, {
+    "name": "Anacostia",
+    "id": "F06"
+}, {
+    "name": "Navy Yard - Ballpark",
+    "id": "F05"
+}, {
+    "name": "Waterfront",
+    "id": "F04"
+}, {
+    "name": "L'Enfant Plaza",
+    "id": "F03"
+}, {
+    "name": "Archives",
+    "id": "F02"
+}, {
+    "name": "Gallery Place",
+    "id": "F01"
+}, {
+    "name": "Mount Vernon Square",
+    "id": "E01"
+}, {
+    "name": "Shaw-Howard University",
+    "id": "E02"
+}, {
+    "name": "U Street",
+    "id": "E03"
+}, {
+    "name": "Columbia Heights",
+    "id": "E04"
+}, {
+    "name": "Georgia Ave-Petworth",
+    "id": "E05"
+}, {
+    "name": "Fort Totten",
+    "id": "E06"
+}, {
+    "name": "West Hyattsville",
+    "id": "E07"
+}, {
+    "name": "Prince George's Plaza",
+    "id": "E08"
+}, {
+    "name": "College Park-UMD",
+    "id": "E09"
+}, {
+    "name": "Greenbelt",
+    "id": "E10"
+  }
+],
+"yellowLine":[{
+    "name": "Huntington",
+    "id": "C15"
+}, {
+    "name": "Eisenhower Ave",
+    "id": "C14"
+}, {
+    "name": "King Street-Old Town",
+    "id": "C13"
+}, {
+    "name": "Braddock Road",
+    "id": "C12"
+}, {
+    "name": "Potomac Yard",
+    "id": "C11"
+}, {
+    "name": "Ronald Reagan Washington National Airport",
+    "id": "C10"
+}, {
+    "name": "Crystal City",
+    "id": "C09"
+}, {
+    "name": "Pentagon City",
+    "id": "C08"
+}, {
+    "name": "Pentagon",
+    "id": "C07"
+}, {
+    "name": "L'Enfant Plaza",
+    "id": "F03"
+}, {
+    "name": "Archives-Navy Memorial-Penn Quarter",
+    "id": "F02"
+}, {
+    "name": "Gallery Place",
+    "id": "F01"
+}, {
+    "name": "Mount Vernon Square",
+    "id": "E01"
+}, {
+    "name": "Shaw-Howard University",
+    "id": "E02"
+}, {
+    "name": "U Street",
+    "id": "E03"
+}, {
+    "name": "Columbia Heights",
+    "id": "E04"
+}, {
+    "name": "Georgia Ave-Petworth",
+    "id": "E05"
+}, {
+    "name": "Fort Totten",
+    "id": "E06"
+}, {
+    "name": "West Hyattsville",
+    "id": "E07"
+}, {
+    "name": "Prince George's Plaza",
+    "id": "E08"
+}, {
+    "name": "College Park-UMD",
+    "id": "E09"
+}, {
+    "name": "Greenbelt",
+    "id": "E10"
+  }
+],
+ "silverLine": [{
+    "name": "Wiehle-Reston East",
+    "id": "N06"
+}, {
+    "name": "Spring Hill",
+    "id": "N04"
+}, {
+    "name": "Greensboro",
+    "id": "N03"
+}, {
+    "name": "Tysons Corner",
+    "id": "N02"
+}, {
+    "name": "McLean",
+    "id": "N01"
+}, {
+    "name": "East Falls Church",
+    "id": "K05"
+}, {
+    "name": "Ballston-MU",
+    "id": "K04"
+}, {
+    "name": "Virginia Square-GMU",
+    "id": "K03"
+}, {
+    "name": "Clarendon",
+    "id": "K02"
+}, {
+    "name": "Court House",
+    "id": "K01"
+}, {
+    "name": "Rosslyn",
+    "id": "C05"
+}, {
+    "name": "Foggy Bottom-GWU",
+    "id": "C04"
+}, {
+    "name": "Farragut West",
+    "id": "C03"
+}, {
+    "name": "McPherson Square",
+    "id": "C02"
+}, {
+    "name": "Metro Center",
+    "id": "C01"
+}, {
+    "name": "Federal Triangle",
+    "id": "D01"
+}, {
+    "name": "Smithsonian",
+    "id": "D02"
+}, {
+    "name": "L'Enfant Plaza",
+    "id": "D03"
+}, {
+    "name": "Federal Center SW",
+    "id": "D04"
+}, {
+    "name": "Capitol South",
+    "id": "D05"
+}, {
+    "name": "Eastern Market",
+    "id": "D06"
+}, {
+    "name": "Potomac Ave",
+    "id": "D07"
+}, {
+    "name": "Stadium-Armory",
+    "id": "D08"
+}, {
+    "name": "Benning Road",
+    "id": "G01"
+}, {
+    "name": "Capitol Heights",
+    "id": "G02"
+}, {
+    "name": "Addison Road",
+    "id": "G03"
+}, {
+    "name": "Morgan Boulevard",
+    "id": "G04"
+}, {
+    "name": "Largo Town Center",
+    "id": "G05"
+  }
+]
+}

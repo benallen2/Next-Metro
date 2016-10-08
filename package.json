@@ -1,0 +1,15 @@
+{
+  "name": "metronext",
+  "version": "1.0.0",
+  "description": "Next Metro trains",
+  "main": "metronext.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Allen",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
