@@ -1,10 +1,69 @@
 <!DOCTYPE html>
+<html>
 <head>
+  <title>Next Metro</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+<!-- font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- bootstrap -->
+
   <link rel="stylesheet" type="text/css" href="./styles.css" />
+  <script rel="stylesheet" type="text/javascript" src="./test.js"></script>
 </head>
 <body>
-  <h1> Test! </h1>
-  <input type="submit" value="button1" id="1">
-  <input type="submit" value="button2" id="2">
+  <div class="container-fluid navbar-default navbar-fixed-top">
+    <div class="row">
+      <div class="col-xs-3 logo">
+        <img id="metrologo" src="./metrologo.png">
+      </div>
+      <div class="col-xs-6 title">
+        <h1 id="navtitle">next metro</h1>
+      </div>
+      <div class="col-xs-3 newStation">
+        <div class="btn btn-primary resetBtn">Choose Station</div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid mainContainer">
+    <div class="row">
+      <div class="yourStation">Your Station:
+      </div>
+    </div>
+    <div class="container-fluid col-xs-12 col-sm-4 col-sm-offset-1 dir1Complete">
+      <h4 id="dir1"></h4>
+      <div class="dir1Container col-xs-12"></div>
+    </div>
+    <div class="container-fluid col-xs-12 col-sm-4 col-sm-offset-2 dir2Complete">
+      <h4 id="dir2"></h4>
+      <div class="dir2Container col-xs-12"></div>
+    </div>
+  </div>
+
+  <div class="lineModal">
+    <div class="closeBtn"><h5>Show Map </h5><i class="fa fa-times-circle" aria-hidden="true"></i></div>
+    <h2 class="modalTitle" id="lineTitle">Choose your Line</h2>
+      <div class="lineBtn" id="redLine">Red Line</div>
+      <div class="lineBtn" id="greenLine">Green Line</div>
+      <div class="lineBtn" id="yellowLine">Yellow Line</div>
+      <div class="lineBtn" id="blueLine">Blue Line</div>
+      <div class="lineBtn" id="orangeLine">Orange Line</div>
+      <div class="lineBtn" id="silverLine">Silver Line</div>
+  </div>
+
+  <div class="stationModal">
+    <div class="closeBtn"><h5>Show Map </h5><i class="fa fa-times-circle" aria-hidden="true"></i></div>
+    <h2 class="modalTitle">Choose your Station</h2>
+    <ul id="stationList">
+    </ul>
+  </div>
+
+  <div class="container-fluid mapContainer">
+    <img id="metromap" src="./Images/ColorMetro-1.png">
+  </div>
+
 
 </body>
+</html>

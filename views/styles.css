@@ -1,3 +1,189 @@
-h1 {
-  color: red;
+body{
+  background-color: #D9DAD7;
+}
+.navbar-default {
+  display:inline-block;
+  height: 10vh;
+  text-align: center;
+  margin: 0;
+  position: fixed;
+  color: #EAEBF0;
+  background-color: black;
+}
+
+.mainContainer{
+  margin-top: 10vh;
+}
+
+.yourStation{
+  text-align: center;
+  font-size: 20px;
+  padding: 20px 20px;
+}
+
+#navTitle{
+  line-height: 100px;
+}
+
+.dir1Complete{
+  background-color: #A8A8A8;
+  box-shadow:2px 2px 3px #4C4C4C;
+  color: #EAEBF0;
+  margin-top: 10px;
+}
+.dir2Complete{
+  background-color: #A8A8A8;
+  box-shadow: 2px 2px 3px #4C4C4C;
+  color: #EAEBF0;
+  margin-top: 10px;
+}
+
+.dir1Container{
+  height: 400px;
+  display: inline-block;
+}
+.dir2Container{
+  height: 400px;
+  display: inline-block;
+}
+
+#metrologo {
+  height: 60px;
+  width: 50px;
+  margin-top: 15px;
+}
+
+.resetBtn{
+  margin-top: 25px;
+  background-color: #4C4C4C;
+  border: none;
+}
+.resetBtn:hover {
+  margin-top: 25px;
+  background-color: #636363;
+  border: none;
+}
+
+/*Line Modal CSS*/
+.lineModal {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 100;
+	background-color: black;
+  margin-top: 10vh;
+	transition: 0.5s;
+	color: #EAEBF0;
+	text-align: center;
+  overflow-x: hidden;
+}
+
+#lineTitle{
+  padding-top: 50px;
+}
+
+.lineBtn{
+	border: none;
+	height: 80px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  line-height: 80px
+}
+
+#redLine{
+	background-color: #e51434;
+	color: #EAEBF0;
+}
+#greenLine{
+	background-color: #0eab4a;
+	color: #EAEBF0;
+}
+#yellowLine{
+	background-color: #EDCE00;
+	color: #EAEBF0;
+}
+#blueLine{
+	background: #3381FF;
+	color: #EAEBF0;
+}
+#orangeLine{
+	background: #f38512;
+	color: #EAEBF0;
+}
+#silverLine{
+	background: #9d9f9d;
+	color: #EAEBF0;
+}
+
+#metromap {
+  margin-top: 10vh;
+  height: 90%;
+  width: 100%;
+  z-index: 1;
+}
+
+.closeBtn{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.stationModal {
+	height: 90vh;
+	width: 0;
+  margin-top: 10vh;
+	position: fixed;
+	z-index: 200;
+	transition: 0.5s;
+	color: #EAEBF0;
+	text-align: center;
+  overflow-x: hidden;
+}
+.modalTitle{
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+ul > li{
+	list-style: none;
+	height: 50px;
+  font-size: 16px;
+  text-align: center;
+
+  box-shadow: 0px 2px 2px #917F03;
+  padding-top: 15px;
+  overflow: hidden;
+}
+ul {
+  padding-left: 0px;
+  cursor: pointer;
+}
+
+.BLtrain{
+  border: 4px solid #2252A1;
+}
+.YLtrain{
+  border: 4px solid #917F03;
+}
+.RDtrain{
+  border: 4px solid #9E152A;
+}
+.GRtrain{
+  border: 4px solid #016E2B;
+}
+.SVtrain{
+  border: 4px solid #5F5F66;
+}
+.ORtrain{
+  border: 4px solid #f38512;
+}
+
+.train {
+ margin-top: 5px;
+ padding: 10px 10px;
+ font-size: 16px;
 }
