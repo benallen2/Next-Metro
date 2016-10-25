@@ -90,21 +90,21 @@ $.ajax({
           trainClass = "BL";
           if (data.Trains[i].Group == "2"){//put box in right column
             if(data.Trains[i].Min == "ARR"){//change arriving notification
-              $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Arriving </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+              $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Arriving </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
             }
             else if (data.Trains[i].Min == "BRD"){//change boarding notification
-              $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Boarding </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+              $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Boarding </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
             }else{
-          $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival'>Train ETA: " + data.Trains[i].Min + " Mins</p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+          $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival'>Train ETA: " + data.Trains[i].Min + " Mins</p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
           }
         }else{//or the other column
           if(data.Trains[i].Min == "ARR"){
-            $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA:Arriving </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+            $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA:Arriving </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
           }
           else if (data.Trains[i].Min == "BRD"){
-            $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA:Boarding </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+            $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA:Boarding </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
           }else{
-        $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival'>Train ETA: " + data.Trains[i].Min + " Mins</p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+        $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival'>Train ETA: " + data.Trains[i].Min + " Mins</p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
         }
       }
     }
@@ -112,21 +112,21 @@ $.ajax({
           trainClass = "YL";
           if (data.Trains[i].Group == "2"){//put box in right column
             if(data.Trains[i].Min == "ARR"){//change arriving notification
-              $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Arriving </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+              $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Arriving </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
             }
             else if (data.Trains[i].Min == "BRD"){//change boarding notification
-              $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Boarding </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+              $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Boarding </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
             }else{
-          $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival'>Train ETA: " + data.Trains[i].Min + " Mins</p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+          $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival'>Train ETA: " + data.Trains[i].Min + " Mins</p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
           }
         }else{//or the other column
           if(data.Trains[i].Min == "ARR"){
-            $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Arriving </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+            $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Arriving </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
           }
           else if (data.Trains[i].Min == "BRD"){
-            $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Boarding </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+            $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Boarding </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
           }else{
-        $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival'>Train ETA: " + data.Trains[i].Min + " Mins</p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+        $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival'>Train ETA: " + data.Trains[i].Min + " Mins</p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
         }
       }
     }
@@ -134,21 +134,21 @@ $.ajax({
         trainClass = "RD";
         if (data.Trains[i].Group == "2"){//put box in right column
           if(data.Trains[i].Min == "ARR"){//change arriving notification
-            $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Arriving </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+            $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#C40000'>Train ETA: Arriving </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
           }
           else if (data.Trains[i].Min == "BRD"){//change boarding notification
-            $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Boarding </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+            $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#C40000'>Train ETA: Boarding </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
           }else{
-        $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival'>Train ETA: " + data.Trains[i].Min + " Mins</p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+        $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival'>Train ETA: " + data.Trains[i].Min + " Mins</p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
         }
       }else{//or the other column
         if(data.Trains[i].Min == "ARR"){
-          $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Arriving </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+          $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Arriving </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
         }
         else if (data.Trains[i].Min == "BRD"){
-          $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Boarding </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+          $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Boarding </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
         }else{
-      $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival'>Train ETA: " + data.Trains[i].Min + " Mins</p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+      $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival'>Train ETA: " + data.Trains[i].Min + " Mins</p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
       }
     }
   }
@@ -156,21 +156,21 @@ $.ajax({
         trainClass = "GR";
         if (data.Trains[i].Group == "2"){//put box in right column
           if(data.Trains[i].Min == "ARR"){//change arriving notification
-            $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Arriving </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+            $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Arriving </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
           }
           else if (data.Trains[i].Min == "BRD"){//change boarding notification
-            $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Boarding </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+            $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Boarding </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
           }else{
-        $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival'>Train ETA: " + data.Trains[i].Min + " Mins</p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+        $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival'>Train ETA: " + data.Trains[i].Min + " Mins</p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
         }
       }else{//or the other column
         if(data.Trains[i].Min == "ARR"){
-          $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Arriving </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+          $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Arriving </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
         }
         else if (data.Trains[i].Min == "BRD"){
-          $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Boarding </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+          $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Boarding </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
         }else{
-      $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival'>Train ETA: " + data.Trains[i].Min + " Mins</p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+      $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival'>Train ETA: " + data.Trains[i].Min + " Mins</p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
       }
     }
   }
@@ -178,21 +178,21 @@ $.ajax({
         trainClass = "OR";
         if (data.Trains[i].Group == "2"){//put box in right column
           if(data.Trains[i].Min == "ARR"){//change arriving notification
-            $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Arriving </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+            $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Arriving </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
           }
           else if (data.Trains[i].Min == "BRD"){//change boarding notification
-            $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Boarding </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+            $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Boarding </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
           }else{//Minutes ETA
-        $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival'>Train ETA: " + data.Trains[i].Min + " Mins</p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+        $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival'>Train ETA: " + data.Trains[i].Min + " Mins</p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
         }
       }else{//or the other column
         if(data.Trains[i].Min == "ARR"){
-          $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Arriving </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+          $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Arriving </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
         }
         else if (data.Trains[i].Min == "BRD"){
-          $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Boarding </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+          $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Boarding </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
         }else{//Minutes ETA
-      $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival'>Train ETA: " + data.Trains[i].Min + " Mins</p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+      $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival'>Train ETA: " + data.Trains[i].Min + " Mins</p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
       }
     }
   }
@@ -200,21 +200,21 @@ $.ajax({
         trainClass = "SV";
         if (data.Trains[i].Group == "2"){//put box in right column
           if(data.Trains[i].Min == "ARR"){//change arriving notification
-            $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Arriving </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+            $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Arriving </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
           }
           else if (data.Trains[i].Min == "BRD"){//change boarding notification
-            $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Boarding </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+            $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Boarding </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
           }else{//minutes ETA
-        $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival'>Train ETA: " + data.Trains[i].Min + " Mins</p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+        $(".dir1Container").append("<div class='row train " + trainClass + "train'><p class='arrival'>Train ETA: " + data.Trains[i].Min + " Mins</p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
         }
       }else{//or the other column
         if(data.Trains[i].Min == "ARR"){
-          $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Arriving </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+          $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Arriving </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
         }
         else if (data.Trains[i].Min == "BRD"){
-          $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Boarding </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+          $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival' style='color:#9E152A'>Train ETA: Boarding </p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
         }else{//Minutes ETA
-      $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival'>Train ETA: " + data.Trains[i].Min + " Mins</p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination:" + data.Trains[i].DestinationName +"</p></div>");
+      $(".dir2Container").append("<div class='row train " + trainClass + "train'><p class='arrival'>Train ETA: " + data.Trains[i].Min + " Mins</p><p class='cars'>Number of Cars: " + data.Trains[i].Car + "</p><p class='destination'>Destination: " + data.Trains[i].DestinationName +"</p></div>");
       }
     }
   }
